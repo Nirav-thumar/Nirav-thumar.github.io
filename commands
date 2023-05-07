@@ -61,6 +61,10 @@ now need to add file and commit it.
 now go to master branch using checkout
 7) git chcekout master
 
+8) git merge [branchname] --> merging branch in git
+9) git push origin master --> now code updated in github
+
+
 
 
 
