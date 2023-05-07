@@ -11,17 +11,48 @@ git config user.email
 
 
 echo "# Bootsrap_1" >> README.md
-git init                 --> to make your project git project/ intialize project in git -->.git folder in your folder
+1) git init                 --> to make your project git project/ intialize project in git -->.git folder in your folder
 git add README.md
-git add [filename] || -A  -->which file you want to show in git // -a for all file  // add file in staging area
-git status               --> show status
-git commit -m "first commit" --> "commit the file or create version "
-git remote add origin git@github.com:Nirav3008/Bootsrap_1.git  --> link git and github in your repositry 
-git push origin master --> to push git files on github
-git clone reponame     --> download source code
+2) git add [filename] || -A  -->which file you want to show in git // -a for all file  // add file in staging area
+3) git status               --> show status
+4) git commit -m "first commit" --> "commit the file or create version "
+5) git remote add origin git@github.com:Nirav3008/Bootsrap_1.git  --> link git and github in your repositry 
+6) git push origin master --> to push git files on github
+
+
+
+
+
+
+after changing in files or creating new filename
+7) git commit -m "change commit"
+8) git push origin master
+
+
+
+user 
+i)  git clone reponame     --> download source code
+ git clone git@github.com:Nirav3008/Bootsrap_1.git
+
+ii) git pull origin master
+
 
 
 
 
 git push -u origin main             
 git branch -M main
+
+
+
+
+branchese
+1) git brach --> to check currently in which branch you are
+2) git branch [branchname]  --> create new branch --> currntly u are in master branch
+3) git checkout [branchname] --> to move from master to branch
+4) ls  --> check file 
+
+
+
+
+
