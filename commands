@@ -1,0 +1,21 @@
+//first time need to set user.name and user.EMAIL VALUE
+
+git config --global user.name "Nirav3008"
+git config --global user.email "nirav678.np@gmail.com"
+
+To check above configuration command
+
+git config user.name
+git config user.email
+
+
+
+echo "# Bootsrap_1" >> README.md
+git init                 --> to make your project git project/ intialize project in git -->.git folder in your folder
+git add README.md
+git add [filename] || -a  -->which file you want to show in git // -a for all file  // add file in staging area
+git status               --> show status
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Nirav3008/Bootsrap_1.git
+git push -u origin main
