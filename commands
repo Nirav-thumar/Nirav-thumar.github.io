@@ -13,9 +13,15 @@ git config user.email
 echo "# Bootsrap_1" >> README.md
 git init                 --> to make your project git project/ intialize project in git -->.git folder in your folder
 git add README.md
-git add [filename] || -a  -->which file you want to show in git // -a for all file  // add file in staging area
+git add [filename] || -A  -->which file you want to show in git // -a for all file  // add file in staging area
 git status               --> show status
-git commit -m "first commit"
+git commit -m "first commit" --> "commit the file or create version "
+git remote add origin git@github.com:Nirav3008/Bootsrap_1.git  --> link git and github in your repositry 
+git push origin master --> to push git files on github
+git clone reponame     --> download source code
+
+
+
+
+git push -u origin main             
 git branch -M main
-git remote add origin git@github.com:Nirav3008/Bootsrap_1.git
-git push -u origin main
