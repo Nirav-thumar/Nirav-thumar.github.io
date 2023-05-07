@@ -52,6 +52,15 @@ branchese
 3) git checkout [branchname] --> to move from master to branch
 4) ls  --> check file 
 
+after creating branch suppse add other files and changes.
+now need to add file and commit it.
+
+5) git add -a
+6) git commit -m "added new file in branch."
+
+now go to master branch using checkout
+7) git chcekout master
+
 
 
 
